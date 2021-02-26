@@ -1,4 +1,4 @@
-let finding = document.querySelector(".picture");
+// let finding = document.querySelector(".picture");
 let btn = document.querySelector(".btn");
 let btn2 = document.querySelector(".btn2");
 
@@ -13,8 +13,8 @@ function getFetch() {
       let ul = document.querySelector("ul");
       let li = document.createElement("li");
       let img = document.createElement("img");
-      console.log(data);
-      finding.src = data.message;
+      // console.log(data);
+      img.src = data.message;
       img.classList = "img";
       li.appendChild(img);
       ul.appendChild(li);
